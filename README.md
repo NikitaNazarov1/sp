@@ -45,3 +45,10 @@ e.g.:
 Finally, have some fun – Feel free to make changes or design something if you think it meets the
 criteria above, but would produce better outcomes and of course, the sooner you return the test, the
 quicker we can move the process.
+
+# For install run:
+`bundle install`
+# For run specs:
+`bundle exec rspec`
+# For run app:
+`ruby parser.rb webserver.log`
