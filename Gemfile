@@ -6,4 +6,5 @@ group :test do
   # Check styles with RuboCop
   gem 'rspec'
   gem 'rubocop'
+  gem 'simplecov'
 end
