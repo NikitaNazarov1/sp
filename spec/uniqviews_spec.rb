@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require_relative '../app/logparse'
-require_relative '../app/uniqviews'
+require_relative '../app/log_parse'
+require_relative '../app/uniq_views'
 # require 'spec_helper'
 
 describe UniqViews do

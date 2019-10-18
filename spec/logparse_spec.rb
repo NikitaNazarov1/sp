@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../app/logparse'
+require_relative '../app/log_parse'
 # require 'spec_helper'
 
 describe LogParse do

@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require_relative 'allviews'
-require_relative 'uniqviews'
-require_relative 'logparse'
+require_relative 'all_views'
+require_relative 'uniq_views'
+require_relative 'log_parse'
 
 # class Parsing
 class Parsing
