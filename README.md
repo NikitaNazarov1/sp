@@ -1,4 +1,5 @@
 # sp
+
 # What it does:
     a. Receives a log as argument (webserver.log is provided) e.g.: ./parser.rb webserver.log’
     b. Returns the following:
