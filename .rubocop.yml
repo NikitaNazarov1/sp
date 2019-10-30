@@ -3,3 +3,8 @@ Metrics/LineLength:
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#80-character-limits
   Enabled: true
   Max: 100
+Metrics/MethodLength:
+  Description: Limit lines of method to 15.
+  StyleGuide: https://github.com/bbatsov/ruby-style-guide#80-character-limits
+  Enabled: true
+  Max: 15
