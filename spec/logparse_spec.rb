@@ -15,5 +15,9 @@ describe LogParse do
     it 'parse input data' do
       expect(described_class.new(log).parsing).to eq(expected_result)
     end
+
+    it 'return error if file not a log' do
+      expect { described_class.new('sort_spec.rb').parsing }.to raise_error(StandardError, 'File it is not a log')
+    end
   end
 end
