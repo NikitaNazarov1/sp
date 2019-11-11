@@ -11,6 +11,8 @@ class LogParse
   end
 
   def parsing
+    raise StandardError, 'File it is not a log' unless File.extname(log) == '.log'
+
     file = IO.readlines(log)
     file.each do |line|
       path, ip = line.split
